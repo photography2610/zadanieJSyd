@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Ile sekund. Modyfikacja zadania 8</title>
+</head>
+<body>
+<div style="color:green;font-size:51px;">
+<script language="JavaScript">
+var D1_Syd = parseFloat(prompt("Day 1=",""));
+var H2_Syd = parseFloat(prompt("Hour 1=",""));
+var D2_Syd = parseFloat(prompt("Day 2=",""));
+var H1_Syd = parseFloat(prompt("Hour 2=",""));
+var second_count;
+second_count = (D1_Syd - D2_Syd) * 24 * 60 * 60 + (H1_Syd - H2_Syd);
+if (second_count < 0) {
+    second_count = -second_count;
+}
+document.write("Ile second mędzy "+D1_Syd+", "+H1_Syd+"h a "+D2_Syd+", "+H2_Syd+"h = "+second_count+" s");
+</script>
+</div>
+</body>
+</html>
+</body>
+</html>
