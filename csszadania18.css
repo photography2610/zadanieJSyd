@@ -1,0 +1,51 @@
+#div2 {
+	
+	width: 1100px;
+	background-color: rgb(151, 0, 0);
+	
+}
+
+#zd_3 {
+	color: rgb(234, 0, 255);
+	font-size: 1.4cm;
+}
+
+
+#wyliczenie2 {
+	color: rgb(26, 73, 5);
+	font-size: 8mm;
+}
+
+
+
+#div1 {
+	width: 1200px;
+	background-color: rgb(35, 226, 10);
+	}
+#zd_1 {
+	color: rgb(0, 255, 13);
+	font-size: 1.2cm;
+}
+#zd_2 {
+	font-size: 1.6cm;
+}
+#wyliczenie {
+	color: rgb(132, 0, 255);
+	font-size: 12mm;
+}
+
+
+
+#div3 {
+	width: 1000px;
+	background-color: rgb(117, 117, 117);
+}
+
+#zd_4 {
+	color: rgb(246, 8, 246);
+	font-size: 1.1cm;
+}
+#wyliczenie3 {
+	color: rgb(3, 28, 109);
+	font-size: 6mm;
+}

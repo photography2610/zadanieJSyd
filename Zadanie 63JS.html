@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 63</title>
+</head>
+<body>
+    <div style="color:red;font-size:50px;">
+        <script language="JavaScript">
+        document.write("<font color=black size=20>MENU</font>"+"<br>");
+        document.write("<font color=red size=15>1-CZERWONY</font>"+"<br>");
+        document.write("<font color=green size=15>2-NIEBIESKI</font>"+"<br>");
+        var textBox = document.createElement("INPUT");
+        textBox.setAttribute("type", "text");
+        textBox.id = "textbox";
+        document.body.appendChild(textBox);
+        function Check() {
+        if(document.getElementById('textbox').value == "1" || document.getElementById('textbox').value.toLowerCase() == "czerwony"){
+        document.write("<p style='color:red;font-size:30;text-align:center;'>"+"kolor czerwony"+"</p>");}
+        else if(document.getElementById('textbox').value == "2" || document.getElementById('textbox').value.toLowerCase() == "niebieski"){
+        document.write("<p style='color:blue;font-size:30;text-align:center;'>"+"kolor niebieski"+"</p>");}
+        else{
+        document.alert("Wrong data");}
+        }
+        </script>
+        <button onclick="Check()">Check</button>
+        </div> 
+</body>
+</html>
